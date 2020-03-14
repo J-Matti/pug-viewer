@@ -17,21 +17,33 @@ body {
 }
 
 header {
-  padding: 40px 0px;
+  padding: 30px 0px;
   background-color: #a6b1e1;
   border-bottom: 3px solid #f8f8f8;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+header>.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-img {
+  width: 60px;
 }
 
 main {
   margin: 30px 0px;
 }
 
-img, button {
+.pug-img, button {
   border: 3px solid #f8f8f8;
   border-radius: 4px;
 }
 
-img {
+.pug-img {
   width: 100%;
   height: auto;
   margin: 15px 0px;
@@ -58,6 +70,8 @@ footer {
   border-top: 3px solid #f8f8f8;
   line-height: 2;
   background-color: #a6b1e1;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
 @media only screen  and (min-width : 1224px) {
@@ -69,7 +83,7 @@ footer {
     width: 90%;
   }
 
-  img {
+  .pug-img {
     align-self: center;
   }
 
