@@ -60,3 +60,17 @@ footer {
   background-color: #a6b1e1;
 }
 
+@media only screen  and (min-width : 1224px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    width: 90%;
+  }
+
+  .pug-container{
+    flex-direction: row;
+  }
+}
+
