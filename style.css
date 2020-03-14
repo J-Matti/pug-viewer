@@ -69,6 +69,10 @@ footer {
     width: 90%;
   }
 
+  img {
+    align-self: center;
+  }
+
   .pug-container{
     flex-direction: row;
   }
